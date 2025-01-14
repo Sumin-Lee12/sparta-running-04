@@ -12,7 +12,9 @@
  * @param {string} title
  * @returns {Array} 새로운 todos 배열
  */
-function createTodo(todos, title) {}
+function createTodo(todos, title) {
+  todos.push({id:1, title: "newTask", completed: false});
+}
 
 // export 수정 불가
 export { createTodo };
